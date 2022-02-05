@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: #121212;
+    color: #c5c5c5;
+    font-family: 'Quintessential', cursive, serif;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #c5c5c5;
+    height: 150px;
+    font-family: 'Quintessential', cursive, serif;
+}
+
+.boxes {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    background-color: lightcoral;
+    height: 300px;
+    width: 50%;
+}
