@@ -14,6 +14,10 @@ body {
     font-family: 'Quintessential', cursive, serif;
 }
 
+.header-icons:hover {
+    opacity: 0.3;
+}
+
 .name {
     font-size: 60px;
     font-weight: bold;
@@ -27,14 +31,24 @@ body {
 
 .boxes {
     display: flex; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background: url("marcus-aurelius-4-640x320.png");
+    opacity: 0.3;
 }
 
 .box {
     display: flex;
-    background-color: lightcoral;
-    height: 300px;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    height: 260px;
+    width: 800px;
+    color: #fff;
+    padding: 30px;
+    opacity: 0.91;
+    font-size: 25px;
 }
+
+
