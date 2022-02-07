@@ -24,7 +24,7 @@ body {
     display: flex; 
     justify-content: center;
     align-items: center;
-    color: #c5c5c5;
+    color: #c5c5c5bd;
     height: 150px;
     font-family: 'Quintessential', cursive, serif;
 }
